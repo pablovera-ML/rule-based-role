@@ -38,4 +38,11 @@ clean-all: clean remove-image
 full-rebuild: clean-all build
 	docker run --name $(CONTAINER_NAME) $(IMAGE_NAME)
 
-.PHONY: build run logs shell clean rebuild remove-image clean-all full-rebuild
+# Run the application locally (without Docker)
+run-local:
+	python3 -m venv venv
+	. venv/bin/activate
+	pip install -r requirements.txt
+	python main.py
+
+.PHONY: build run logs shell clean rebuild remove-image clean-all full-rebuild run-local
