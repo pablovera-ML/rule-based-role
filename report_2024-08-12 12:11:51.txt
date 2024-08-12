@@ -1,0 +1,26 @@
+* Employee ID 106. Name Adam Back. 
+ Violated rules: 
+   - Inconsistent names for the same Employee ID.
+     - Examples: Susan Lindström. 
+* Employee ID 101. Name John Doe. 
+ Violated rules: 
+   - Employee worked two consecutive night shifts.
+     - Examples: Friday, Saturday. 
+   - Employee worked more than 5 days in a week.
+     - Examples: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday. 
+   - Employee worked more than 1 shift per day.
+     - Examples: Monday. 
+* Employee ID 102. Name Jane Smith. 
+ Violated rules: 
+   - Employee worked two consecutive night shifts.
+     - Examples: Monday, Tuesday. 
+* Employee ID 103. Name Pablo Vera. 
+ Violated rules: 
+   - Employee worked more than 5 days in a week.
+     - Examples: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday. 
+   - Employee worked more than 1 shift per day.
+     - Examples: Thursday. 
+* Employee ID 104. Name Susan Lindström. 
+ Violated rules: 
+   - Employee worked more than 1 shift per day.
+     - Examples: Friday. 
